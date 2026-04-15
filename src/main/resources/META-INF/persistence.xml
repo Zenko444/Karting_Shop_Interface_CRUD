@@ -18,9 +18,9 @@
 
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/karting_db"/>
-            <property name="jakarta.persistence.jdbc.user" value="postgres"/>
+            <property name="jakarta.persistence.jdbc.user" value="POSTGRESQL USER HERE"/>
 
-            <property name="jakarta.persistence.jdbc.password" value="mascatul04"/>
+            <property name="jakarta.persistence.jdbc.password" value="PASSWORD HERE"/>
 
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
 
