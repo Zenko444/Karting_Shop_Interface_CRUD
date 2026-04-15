@@ -9,22 +9,21 @@ By default the project is called KartingJPA, but you can change that. karting_db
 
 Karting_Proiect/
 ├── frontend/
-│   ├── generated/                 ← Cod generat automat de Vaadin (Ignorat in Git)
+│   ├── generated/                 ← Generated code by Vaadin automatically
 │   │   ├── flow/
 │   │   └── jar-resources/
-│   ├── index.html                 ← Punctul de intrare pentru interfața web
-│   ├── vaadin.ts                  ← Configurare TypeScript pentru Vaadin
-│   └── vaadin-featureflags.js     ← Flag-uri pentru funcționalități Vaadin
+│   ├── index.html                 ← Entry point for the web interface
+│   ├── vaadin.ts                  ← Configuration of TypeScript for Vaadin
+│   └── vaadin-featureflags.js     ← Flags for Vaadin functionalities
 ├── src/
 │   ├── main/
-│   │   └── java/
-│   │       ├── model/             ← Clasele tale de date (Client, Kart, Vanzare, etc.)
-│   │       └── org.comenzi.model/ ← Interfața grafică și vizualizările (MainLayout, FormKartView, App, etc.)
-│   └── test/                      ← (Opțional) Aici vor sta testele unitare
-├── target/                        ← Codul compilat de Maven (Ignorat in Git)
-├── .gitignore                     ← Lista fișierelor pe care Git nu trebuie să le urmărească
-├── pom.xml                        ← Fișierul de configurare Maven (dependențe)
-└── .idea/                         ← Setările specifice IntelliJ IDEA (Ignorat in Git)
+│       └── java/
+│           ├── model/             ← Data classes (Client, Kart, Vanzare, etc.)
+│           └── org.comenzi.model/ ← Interface and elements (MainLayout, FormKartView, App, etc.)
+├── target/                        ← Compiled code by Maven
+├── .gitignore                     ← List of files ignored by Git
+├── pom.xml                        ← File for Maven configurations (dependencies)
+└── .idea/                         ← Specific settings for IntelliJ IDEA which are ignored by Git
 
 
 
